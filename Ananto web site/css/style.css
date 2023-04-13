@@ -1,0 +1,201 @@
+.btn-color{
+    background-color: #ff8a43;
+}
+.text-orange{
+    color: #ff8a43!important;
+}
+ul, ol{
+    list-style: none;
+}
+.text-color{
+    color: #666666;
+}
+.z-index{
+    z-index: -1;
+}
+body{
+    font-family: 'Outfit' !important; 
+}
+.slider{
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+}
+.navbar-collapse ul li{
+    
+    font-weight: 600;
+}
+form button{
+    
+    font-weight: 600;
+}
+.slider-contant{
+    padding: 80px 0 0 0;
+}
+.slider-contant h2{
+    font-size: 60px;
+    
+    font-weight: 800;
+}
+.slider-contant p{
+    font-weight: 600;
+}
+.slider-contant .box{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 100px;
+    box-shadow: 1px 4px 20px -2px rgb(0 0 0 / 10%);
+}
+.img{
+    top: 54%;
+    left: 0;
+}
+.img1{
+    top: 54%;
+    right: 0;
+}
+.feature{
+    padding: 120px 0;
+    background-color: white;
+}
+.feature .contant h5{
+    
+    font-weight: 800;
+}
+
+.contant h2{
+    
+    font-weight: 800;
+}
+.feature-img h5{
+    
+    font-weight: 800;
+}
+.website{
+    padding: 100px 0;
+    background: url('../img/baner.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.253);
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
+.site-heading h1{
+    font-size: 80px;
+    
+    font-weight: 800;
+}
+.site-heading h2{
+    font-size: 42px;
+    
+    font-weight: 800;
+}
+.web-img .img a{
+    
+    font-weight: 800;
+}
+.responsive{
+    padding: 120px 0;
+    background-color: #ffffff;
+}
+.content h2{
+    font-size: 36px;
+    font-weight: 800;
+}
+.content p{
+    
+    font-weight: 800;
+}
+.all-sites{
+    background-color: #ffffff;
+}
+.all-sites h1{
+    font-size: 80px;
+    
+    font-weight: 800;
+}
+.customer-review{
+    padding: 100px 0;
+    background-image: url('../img/16.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #EFEFFF;
+}
+.single-items .item{
+    width: 100%;
+    padding: 30px;
+    background-color: #ffffff;
+}
+.item .sub-box{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: green;
+    border-radius: 50%;
+    text-align: center;
+}
+.Awesome-feature{
+    background-color: #FFFFFF;
+    padding: 100px 0 70px 0;
+}
+.feature-title h4{
+    
+    font-weight: 900;
+}
+.feature-title h2{
+    font-size: 45px;
+    
+    font-weight: 800;
+}
+.single{
+    width: 100%;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 25px 70px rgb(0 0 0 / 7%);
+}
+.single h6{
+    
+    font-weight: 800;
+}
+footer{
+    padding: 80px 0;
+    background-color: #10393B;
+}
+
+@media (max-width:575px){
+    .slider-contant h2{
+        padding: 0!important;
+    }
+    .contant{
+        border-right: none!important;
+    }
+}
+@media (min-width:992px){
+    .slider-contant h2{
+        padding: 0 100px!important;
+    } 
+    .slider-contant p{
+        padding: 0 200px!important;
+    }
+    .contant{
+        height: 150px;
+        border-right: 1px solid gray;
+    }
+}
+@media (min-width:1200px){
+    .slider-contant h2{
+        padding: 0 200px!important;
+    }
+    .slider-contant p{
+        padding: 0 300px!important;
+    } 
+    .customer-review h2{
+        font-size: 42px;
+        
+        font-weight: 800;
+        padding: 0 260px;
+    }
+    .feature-title h2{
+        padding: 0 330px;
+    }
+}
